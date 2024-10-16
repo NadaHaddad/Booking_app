@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Local configuration files
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json # Gardez ce fichier pour partager les extensions de projet
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite specific
+.vite/ # Dossier temporaire de Vite
+
+# Environment variables
+.env # Ignorer les fichiers d'environnement pour la sécurité
+
+# Additional files to ignore
+*.tmp # Fichiers temporaires
+*.bak # Fichiers de sauvegarde
+*.orig # Fichiers de fusion originaux

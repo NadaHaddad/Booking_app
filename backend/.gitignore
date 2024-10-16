@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# VS Code settings
+.vscode/settings.json
+
+# Environment variables
+.env
+database.js
+
+# Logs
+*.log
+
+# Uploaded files
+uploads/
+
+# Cache
+*.temp
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
